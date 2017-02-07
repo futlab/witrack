@@ -1,0 +1,9 @@
+*.obj
+*.filters
+*.vsp
+*.psess
+witrack/x64/
+x64
+*.db
+*.opendb
+.vs
