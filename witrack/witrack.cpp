@@ -12,6 +12,7 @@
 #include <time.h>
 #include "conveyor.h"
 #include "visualizer.h"
+#include "features.h"
 //#include "trackFeatures.h"
 
 double calcD(const uint8_t * data, size_t d, size_t count)
@@ -255,6 +256,7 @@ int main()
 		//Mat gnr;
 		//resize(gn, gnr, gnsg.size() * 2, INTER_NEAREST);
 		conv.pushHistory = !pause;
+		getFeatures(gnsg);
 		cv::Mat cr = conv.onImage(gnsg);
 		if (!cr.empty())
 			imshow("Conv result", cr);

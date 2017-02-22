@@ -153,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="conveyor.h" />
+    <ClInclude Include="features.h" />
     <ClInclude Include="frame.h" />
     <ClInclude Include="jacobi.h" />
     <ClInclude Include="jacobix.h" />
@@ -162,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="conveyor.cpp" />
+    <ClCompile Include="features.cpp" />
     <ClCompile Include="frame.cpp" />
     <ClCompile Include="jacobi.cpp" />
     <ClCompile Include="stdafx.cpp" />
